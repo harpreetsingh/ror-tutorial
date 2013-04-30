@@ -24,3 +24,5 @@ production:
   database: db/ror
   pool: 5
   timeout: 5000
+  username: foobar
+  password: foobar
