@@ -153,6 +153,7 @@ DEPENDENCIES
   rails (= 3.2.3)
   rspec-rails
   sass-rails
+  sprockets (~> 2.0)
   sqlite3
   taps
   uglifier (>= 1.0.3)

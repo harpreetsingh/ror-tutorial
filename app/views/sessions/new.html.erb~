@@ -1,0 +1,16 @@
+<% pro ide(:title, "Sign In") %>
+<h1> Sign in</h1>
+
+<div class="row">
+  <div class="span6 offset3">
+    <%= form for(:session, url: sessions_path) do |f| %>
+    <%= f.label :email %>
+    <%= f.text field :email %>
+    <%= f.label :password %>
+    <%= f.password field :password %>
+    <%= f.submit "Sign in", class: "btn btn-large btn-primary" %>
+    <% end %>
+  
+    <p>New user? <%= link to "Sign up now!", signup path %></p>
+  </div>
+</div>
